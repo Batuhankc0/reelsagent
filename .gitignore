@@ -1,0 +1,52 @@
+# #################### #
+#  Hassas Bilgiler     #
+# #################### #
+
+# API anahtarlarını, şifreleri ve diğer sırları içeren .env dosyalarını yoksay.
+# Bu, projenizdeki EN ÖNEMLİ satırdır!
+.env
+*.env.*
+!.env.example
+
+
+# #################### #
+#  Python'a Özel       #
+# #################### #
+
+# Python sanal ortam klasörleri
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache dosyaları ve klasörleri
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dağıtım ve paketleme dosyaları
+/dist/
+/build/
+*.egg-info/
+
+
+# #################### #
+#  İDE / Editör Ayarları #
+# #################### #
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+
+
+# #################### #
+#  İşletim Sistemi Dosyaları #
+# #################### #
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
