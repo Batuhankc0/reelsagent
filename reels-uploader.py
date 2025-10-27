@@ -13,7 +13,7 @@ GRAPH_API_VERSION = os.getenv("GRAPH_API_VERSION")
 
 # --- YÜKLENECEK REELS İÇİN BİLGİLER ---
 # DİKKAT: Bu URL'nin herkese açık ve doğrudan erişilebilir olması gerekir.
-VIDEO_URL = "https://www.w3schools.com/html/mov_bbb.mp4" # Test için kullanabileceğiniz örnek bir video
+VIDEO_URL = "https://github.com/Batuhankc0/reelsagent/raw/refs/heads/main/messi.mp4" # Test için kullanabileceğiniz örnek bir video
 CAPTION = "Bu Reels Python ile API kullanılarak yüklendi! 🐍🚀\n#Python #Developer #API #InstagramAPI"
 
 # --- KONTROL ---
